@@ -51,6 +51,12 @@ add_action('after_setup_theme', function () {
     add_theme_support('post-thumbnails');
 
     /**
+     * Custom image size
+     * @link https://developer.wordpress.org/reference/functions/add_image_size/
+     */
+    add_image_size('featured', 1600, 900);
+
+    /**
      * Enable HTML5 markup support
      * @link https://developer.wordpress.org/reference/functions/add_theme_support/#html5
      */

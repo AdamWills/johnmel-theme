@@ -1,0 +1,9 @@
+blockquote {
+  border-left: 4px solid $brand-primary;
+  padding: 1em;
+  margin: 3em 1em;
+
+  *:last-of-type {
+    margin-bottom: 0;
+  }
+}

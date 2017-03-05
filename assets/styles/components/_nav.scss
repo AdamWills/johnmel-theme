@@ -1,0 +1,15 @@
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .current-menu-item .nav-link {
+    border-bottom: 4px solid $brand-primary;
+  }
+}
+

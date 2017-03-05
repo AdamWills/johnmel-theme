@@ -1,0 +1,10 @@
+body {
+  font-family: $font-family-serif;
+  font-size: 110%;
+}
+
+.main {
+  a:not(.btn) {
+    @include link-underline($body-bg, $body-color, $brand-primary);
+  }
+}
