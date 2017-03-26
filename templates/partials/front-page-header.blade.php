@@ -2,7 +2,7 @@
   {{ the_post_thumbnail('featured') }}
   <div class="mask">
     <div class="tagline">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eos, molestias nulla ducimus expedita.
+    JohnMel Stables specializes in horse breeding, training, lessons and sales.
     </div>
     <img src="@asset('images/mask.svg')" alt="">
   </div>

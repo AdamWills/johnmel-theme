@@ -2,8 +2,11 @@
   background-color: $brand-primary;
   color: $white;
   padding: 2rem 0 0;
-  margin-top: 4em;
+  margin-top: 9em;
   position: relative;
+  @include media-breakpoint-up(sm) {
+    margin-top: 4em;
+  }
 
   a {
     color: $white;
@@ -31,10 +34,16 @@
   }
 
   .widget-area {
-    display: flex;
+    @include media-breakpoint-up(sm) {
+      display: flex;
+    }
 
     & > * + * {
-      margin-left: $grid-gutter-width-base * 2;
+      margin-top: $grid-gutter-width-base * 2;
+      @include media-breakpoint-up(sm) {
+        margin-left: $grid-gutter-width-base * 2;
+
+      }
     }
   }
 

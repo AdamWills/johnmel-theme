@@ -1,10 +1,10 @@
 <nav class="navbar navbar-light navbar-toggleable-sm">
 	<div class="container">
-		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
-		<div class="collapse navbar-collapse" id="navbar-header">
+		<button class="btn btn-primary btn-navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
       <a class="navbar-brand" href="{{ home_url() }}">
         <img src="@asset('images/logo.svg')" alt="{{ get_bloginfo('name', 'display') }}">
       </a>
+		<div class="collapse navbar-collapse" id="navbar-header">
 			<?php
 				wp_nav_menu( array(
 					'menu'              => 'Testing Menu',
